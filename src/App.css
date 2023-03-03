@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: unset;
+  list-style: none;
+  font-family: 'Poppins' !important;
+}
+
+
+
+.light{
+  --newBackground:#eee;
+  --antcardbody:#fff;
+  --antcardcolor:#000;
+  --text:#000;
+}
+
+.dark{
+  --newBackground:#001529;
+  --antcardbody:#001529;
+  --antcardcolor:#a6adb4;
+  --text:#eee;
+}
+
+body{
+  background-color: var(--newBackground);
+}
+
+
+.ant-card-body{
+  background-color: var(--antcardbody);
+  color: var(--antcardcolor) !important;
+  border: var(--antcardcolor);
+}
+
+.limited-text{
+  color: var(--antcardcolor) !important;
+
+}
+
+.ant-menu-item{
+  background-color: var(--newBackground);
+}
+
+.ant-card-bordered{
+  border: 1px solid var(--antcardcolor);
+}
+
+.modalCard{
+  border: 1px solid var(--antcardbody);
+}
+
+.ant-modal-content{
+  background-color: var(--antcardbody) !important;
+}
+
+.ant-tag{
+  color: var(--antcardcolor) !important;
+}
+
+.ant-layout-header{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.logo .ant-menu-item-selected{
+  background-color: transparent;
+}
+
+.cursive{
+  font-family: Secramanto, cursive, sans-serif !important;
+
+}
+.contentBg{
+  background: url('../src/assets/imageSection.jpeg');
+  height: 35vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 8rem;
+  color: #fff;
+}
+
+.ant-card-cover{
+  height: 500px;
+}
+
+.contentBg h1{
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.search-image input{
+  height: 40px;
+  border-radius: 7px !important;
+  margin-top: 1rem;
+}
+
+.ant-input-group-addon{
+  display: none !important;
+}
+
+.metaContent{
+  display: flex;
+  justify-content: space-around;
+}
+
+.likeCount{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+
+.likeIcon{
+  position: relative;
+}
+
+.ant-icon-like{
+  position: absolute;
+  top: -13px;
+  left: 8px;
+}
+
+
+.sha{
+  box-shadow:
+ 1.2px 1.2px 2.2px rgba(0, 0, 0, 0.02),
+ -5.5px -5.5px 5.3px rgba(0, 0, 0, 0.028),
+ -12px -12px 10px rgba(0, 0, 0, 0.035),
+ -8.5px -8.5px 17.9px rgba(0, 0, 0, 0.042),
+ 19.5px 19.5px 33.4px rgba(0, 0, 0, 0.05),
+ 100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+}
+
+
+.cardHover:hover{
+  box-shadow:
+ 1.2px 1.2px 2.2px rgba(0, 0, 0, 0.02),
+ -5.5px -5.5px 5.3px rgba(0, 0, 0, 0.028),
+ -12px -12px 10px rgba(0, 0, 0, 0.035),
+ -8.5px -8.5px 17.9px rgba(0, 0, 0, 0.042),
+ 19.5px 19.5px 33.4px rgba(0, 0, 0, 0.05),
+ 100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+}
+
+
+.imagesContainer{
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cardCss{
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.ant-modal-close-x svg{
+  background: #fff;
+  padding: 3px;
+  border-radius: 50%;
+  font-size: 13px;
+}
+
+.greeBtn{
+  background-color: green !important;
+  color: #fff !important;
+}
+
+.desc{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+
+.limited-text {
+  text-transform: capitalize;
+  width: 210px; /* set the width of the element */
+  white-space: nowrap; /* prevent the text from wrapping to a new line */
+  overflow: hidden; /* hide any content that overflows the element */
+  text-overflow: ellipsis; /* add an ellipsis at the end of the visible text */
+}
+
+.ant-modal-body .ant-card-cover{
+  height: 292px;
+}
+
+.ant-modal-body .ant-card-cover img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.headModal{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.likeCount{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+
+.likeIcon{
+  position: absolute;
+  right: -26px;
+  top: 7px;
+}
+
+.ant-icon-like{
+  position: absolute;
+  top: -13px;
+  left: 8px;
+}
+
+
+
+.likeCountModal{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+
+.search-avez{
+  width: 80vw !important;
+}
