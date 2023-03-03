@@ -1,6 +1,5 @@
 import React from 'react'
-import Images from '../components/Images'
-import SearchImageComponent from '../components/Banner'
+import Images from '../components/Images Component/Images'
 
 const Home = () => {
   return (

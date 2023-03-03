@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Image from "./Image";
-import Banner from "./Banner";
+import Banner from "../Banner/Banner";
 const Images = () => {
 
   return (

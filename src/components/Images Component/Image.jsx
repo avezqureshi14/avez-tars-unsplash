@@ -6,7 +6,6 @@ import {
 } from "@ant-design/icons";
 import { Avatar, Card, Modal, Button } from "antd";
 import { useState, useEffect } from "react";
-import image from "../assets/imageSection.jpeg";
 import { Tag } from "antd";
 const { Meta } = Card;
 const Image = () => {

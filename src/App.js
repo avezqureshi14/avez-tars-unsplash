@@ -1,9 +1,9 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { useEffect } from "react";
-import Navbar from "./components/Navbar";
+import Search from "./components/Search Component/Search";
 import Home from "./Pages/Home";
-import Search from "./components/Search";
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
     <>
